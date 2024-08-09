@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\poo\\ejercicios\\entity\\vaca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|solutionrelative:ejercicios\\entity\\vaca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\ejercicios\\entity\\gato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|solutionrelative:ejercicios\\entity\\gato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\ejercicios\\entity\\animales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|solutionrelative:ejercicios\\entity\\animales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\ejercicios\\service\\animalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|solutionrelative:ejercicios\\service\\animalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\ejercicios\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|solutionrelative:ejercicios\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\ejercicios\\interface\\ianimalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108AE9A9-482A-49C4-BC50-D71541804522}|Ejercicios\\Ejercicios.csproj|solutionrelative:ejercicios\\interface\\ianimalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\program\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\program\\Program.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\program\\Program.cs",
+              "RelativeToolTip": "Ejercicios\\program\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwB4AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T02:23:31.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimalesService.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Service\\AnimalesService.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\Service\\AnimalesService.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Service\\AnimalesService.cs",
+              "RelativeToolTip": "Ejercicios\\Service\\AnimalesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T01:52:17.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAnimalesService.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Interface\\IAnimalesService.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\Interface\\IAnimalesService.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Interface\\IAnimalesService.cs",
+              "RelativeToolTip": "Ejercicios\\Interface\\IAnimalesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T01:33:05.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gato.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Entity\\gato.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\Entity\\gato.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Documents\\CSharp\\Poo\\Ejercicios\\Entity\\gato.cs*",
+              "RelativeToolTip": "..\\..\\..\\Documents\\CSharp\\Poo\\Ejercicios\\Entity\\gato.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T01:08:26.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vaca.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Entity\\vaca.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\Entity\\vaca.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Entity\\vaca.cs",
+              "RelativeToolTip": "Ejercicios\\Entity\\vaca.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T00:33:29.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animales.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Entity\\Animales.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\Entity\\Animales.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\Poo\\Ejercicios\\Entity\\Animales.cs",
+              "RelativeToolTip": "Ejercicios\\Entity\\Animales.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T22:00:06.215Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
