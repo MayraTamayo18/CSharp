@@ -24,7 +24,7 @@ namespace EjercicioEvaluacion
             //
 
             Console.Write("ingrese el valor de su salario:   ");
-            empleado.Salario = int.Parse(Console.ReadLine());
+            empleado.Salario = double.Parse(Console.ReadLine());
 
             Console.Write("ingrese el numero de dias trabajados:   ");
             empleado.Dias = int.Parse(Console.ReadLine());

@@ -33,7 +33,7 @@ namespace EjercicioEvaluacion.Entity
 
         public void ingresoDeDatos()
         {
-            Console.WriteLine("Ingrese su nombre: ");
+            Console.WriteLine($"Ingrese su nombre: ");
             Nombre = Console.ReadLine(); //ReadLine es para resivir los valores que dijita el ususario
 
             Console.WriteLine("Ingrese su edad: ");

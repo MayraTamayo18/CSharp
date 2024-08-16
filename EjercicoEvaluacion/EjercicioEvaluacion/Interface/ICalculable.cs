@@ -11,7 +11,7 @@ namespace EjercicioEvaluacion.Interface
     public interface ICalculable
     {
         //
-        int calcularSalario(int salario, int dias); 
+        double calcularSalario(double salario, int dias); 
 
     }
 }

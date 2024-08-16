@@ -9,12 +9,12 @@ namespace EjercicioEvaluacion.Entity
     public  class Empleado: Persona, ICalculable //(herencia)-Persona  (Implementacion Interfaz)-ICalculable
     {
 
-        public int Salario { get; set;  }
+        public double Salario { get; set;  }
         public int Dias { get; set;  }
 
         //llama el constructor base llamado que se encuentra en persona 
         // se inicializa nombre edad direccion al igual que el nuvo atributo salario 
-        public Empleado(int salario, int dias)
+        public Empleado(double salario, int dias)
         {
             Salario = salario;
             Dias = dias; 
@@ -27,15 +27,15 @@ namespace EjercicioEvaluacion.Entity
         public void mostrarInformacion() //(polimofismo)
         {
             base.mostrarInformacion();
-            Console.WriteLine("salario:    " + Salario);
+            Console.WriteLine($"salario:    " + Salario.ToString("F2"));
             Console.WriteLine("Dias Trabajados:   " + Dias);
             //Console.WriteLine("Valor a pagar:      " + calcularSalario(Salario, Dias));
 
         }
 
-        public int calcularSalario(int Salario, int Dias)
+        public double calcularSalario(double Salario, int Dias)
         {
-            int Valor = (Salario / 30) * Dias; 
+            double Valor = (Salario / 30) * Dias; 
             return Valor;
         }
 
@@ -45,7 +45,7 @@ namespace EjercicioEvaluacion.Entity
             await Task.Delay(5000);
 
             Console.WriteLine("operacion realizada.");
-            Console.WriteLine("Valor a pagar:    " + calcularSalario(Salario, Dias));
+            Console.WriteLine($"Valor a pagar:    " + calcularSalario(Salario, Dias).ToString("F2"));//.ToString("F2")) la funcion hace que formate el salario calculado con dos decimales antes de mostrarlo.
         }
 
     }
