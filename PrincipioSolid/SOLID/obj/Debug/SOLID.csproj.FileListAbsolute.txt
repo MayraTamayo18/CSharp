@@ -1,0 +1,14 @@
+C:\Users\Maira Alejandra\source\repos\PrincipioSolid\SOLID\bin\Debug\SOLID.exe.config
+C:\Users\Maira Alejandra\source\repos\PrincipioSolid\SOLID\bin\Debug\SOLID.exe
+C:\Users\Maira Alejandra\source\repos\PrincipioSolid\SOLID\bin\Debug\SOLID.pdb
+C:\Users\Maira Alejandra\source\repos\PrincipioSolid\SOLID\obj\Debug\SOLID.csproj.AssemblyReference.cache
+C:\Users\Maira Alejandra\source\repos\PrincipioSolid\SOLID\obj\Debug\SOLID.csproj.CoreCompileInputs.cache
+C:\Users\Maira Alejandra\source\repos\PrincipioSolid\SOLID\obj\Debug\SOLID.exe
+C:\Users\Maira Alejandra\source\repos\PrincipioSolid\SOLID\obj\Debug\SOLID.pdb
+C:\Users\Maira Alejandra\Desktop\CSharp\PrincipioSolid\SOLID\bin\Debug\SOLID.exe.config
+C:\Users\Maira Alejandra\Desktop\CSharp\PrincipioSolid\SOLID\bin\Debug\SOLID.exe
+C:\Users\Maira Alejandra\Desktop\CSharp\PrincipioSolid\SOLID\bin\Debug\SOLID.pdb
+C:\Users\Maira Alejandra\Desktop\CSharp\PrincipioSolid\SOLID\obj\Debug\SOLID.csproj.AssemblyReference.cache
+C:\Users\Maira Alejandra\Desktop\CSharp\PrincipioSolid\SOLID\obj\Debug\SOLID.csproj.CoreCompileInputs.cache
+C:\Users\Maira Alejandra\Desktop\CSharp\PrincipioSolid\SOLID\obj\Debug\SOLID.exe
+C:\Users\Maira Alejandra\Desktop\CSharp\PrincipioSolid\SOLID\obj\Debug\SOLID.pdb

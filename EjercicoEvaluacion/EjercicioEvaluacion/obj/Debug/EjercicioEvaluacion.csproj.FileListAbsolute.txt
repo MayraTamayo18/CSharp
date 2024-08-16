@@ -1,0 +1,14 @@
+C:\Users\Maira Alejandra\source\repos\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.csproj.AssemblyReference.cache
+C:\Users\Maira Alejandra\source\repos\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.csproj.CoreCompileInputs.cache
+C:\Users\Maira Alejandra\source\repos\EjercicoEvaluacion\EjercicioEvaluacion\bin\Debug\EjercicioEvaluacion.exe.config
+C:\Users\Maira Alejandra\source\repos\EjercicoEvaluacion\EjercicioEvaluacion\bin\Debug\EjercicioEvaluacion.exe
+C:\Users\Maira Alejandra\source\repos\EjercicoEvaluacion\EjercicioEvaluacion\bin\Debug\EjercicioEvaluacion.pdb
+C:\Users\Maira Alejandra\source\repos\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.exe
+C:\Users\Maira Alejandra\source\repos\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.pdb
+C:\Users\Maira Alejandra\Desktop\CSharp\EjercicoEvaluacion\EjercicioEvaluacion\bin\Debug\EjercicioEvaluacion.exe.config
+C:\Users\Maira Alejandra\Desktop\CSharp\EjercicoEvaluacion\EjercicioEvaluacion\bin\Debug\EjercicioEvaluacion.exe
+C:\Users\Maira Alejandra\Desktop\CSharp\EjercicoEvaluacion\EjercicioEvaluacion\bin\Debug\EjercicioEvaluacion.pdb
+C:\Users\Maira Alejandra\Desktop\CSharp\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.csproj.AssemblyReference.cache
+C:\Users\Maira Alejandra\Desktop\CSharp\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.csproj.CoreCompileInputs.cache
+C:\Users\Maira Alejandra\Desktop\CSharp\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.exe
+C:\Users\Maira Alejandra\Desktop\CSharp\EjercicoEvaluacion\EjercicioEvaluacion\obj\Debug\EjercicioEvaluacion.pdb

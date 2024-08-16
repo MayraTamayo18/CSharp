@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\ejercicoevaluacion\\ejercicioevaluacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|solutionrelative:ejercicioevaluacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\ejercicoevaluacion\\ejercicioevaluacion\\entity\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|solutionrelative:ejercicioevaluacion\\entity\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\ejercicoevaluacion\\ejercicioevaluacion\\entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|solutionrelative:ejercicioevaluacion\\entity\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\ejercicoevaluacion\\ejercicioevaluacion\\interface\\icalculable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2ECA01A-29D7-4A0B-AF2E-F80EEA2807B8}|EjercicioEvaluacion\\EjercicioEvaluacion.csproj|solutionrelative:ejercicioevaluacion\\interface\\icalculable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Program.cs",
+              "RelativeDocumentMoniker": "EjercicioEvaluacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Program.cs",
+              "RelativeToolTip": "EjercicioEvaluacion\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T19:10:08.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Entity\\Empleado.cs",
+              "RelativeDocumentMoniker": "EjercicioEvaluacion\\Entity\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Entity\\Empleado.cs",
+              "RelativeToolTip": "EjercicioEvaluacion\\Entity\\Empleado.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowB4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T18:58:07.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Entity\\Persona.cs",
+              "RelativeDocumentMoniker": "EjercicioEvaluacion\\Entity\\Persona.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Entity\\Persona.cs",
+              "RelativeToolTip": "EjercicioEvaluacion\\Entity\\Persona.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA0wD0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T18:58:03.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICalculable.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Interface\\ICalculable.cs",
+              "RelativeDocumentMoniker": "EjercicioEvaluacion\\Interface\\ICalculable.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\EjercicoEvaluacion\\EjercicioEvaluacion\\Interface\\ICalculable.cs",
+              "RelativeToolTip": "EjercicioEvaluacion\\Interface\\ICalculable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T18:58:00.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
