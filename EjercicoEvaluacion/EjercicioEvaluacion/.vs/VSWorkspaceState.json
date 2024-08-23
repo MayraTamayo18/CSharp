@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Entity",
+    "\\Interface",
+    "\\obj"
   ],
-  "SelectedNode": "\\EjercicioEvaluacion.csproj",
+  "SelectedNode": "\\Entity\\Empleado.cs",
   "PreviewInSolutionExplorer": false
 }

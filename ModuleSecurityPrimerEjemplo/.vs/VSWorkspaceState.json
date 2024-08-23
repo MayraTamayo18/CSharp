@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Data",
+    "\\Data\\Implements",
+    "\\Data\\Interfaces",
+    "\\Entity",
+    "\\Entity\\Dto",
+    "\\Entity\\Model\\Security"
+  ],
+  "SelectedNode": "\\Data\\Implements\\ModuloData.cs",
+  "PreviewInSolutionExplorer": false
+}
