@@ -36,6 +36,10 @@ namespace Business.implements
 
             return viewDtos;
         }
+        public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
+        {
+            return await this.data.GetAllSelect();
+        }
 
         public async Task<ViewDto> GetById(int id)
         {

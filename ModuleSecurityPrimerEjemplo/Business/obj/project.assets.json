@@ -2826,11 +2826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\Maira Alejandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maira Alejandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2848,11 +2848,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj"
+            "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj"
             },
-            "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj"
+            "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj"
             }
           }
         }

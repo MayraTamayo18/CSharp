@@ -4146,11 +4146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\Maira Alejandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maira Alejandra\\AppData\\Roaming\\NuGet\\NuGet.Config",

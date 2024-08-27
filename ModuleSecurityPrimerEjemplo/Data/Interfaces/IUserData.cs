@@ -14,6 +14,8 @@ namespace Data.Interfaces
         public Task<User> GetById(int Id);
         public Task<User> Save(User entity);
         public Task Update(User entity);
-    
+        public Task<IEnumerable<User>> GetAll();
+        public Task<IEnumerable<DataSelectDto>> GetAllSelect();
+
     }
 }

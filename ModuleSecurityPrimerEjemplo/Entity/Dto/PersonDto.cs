@@ -15,6 +15,7 @@ namespace Entity.Dto
         public int Phone{ get; set; }
         public string Type_document { get; set; }
         public string Document { get; set; }
+        public string Route { get; set; }
         public bool State { get; set; }
         public DateTime Birth_of_date { get; set; }
 

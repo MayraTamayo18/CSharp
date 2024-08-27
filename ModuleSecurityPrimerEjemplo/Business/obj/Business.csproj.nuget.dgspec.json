@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj": {}
+    "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj": {
+    "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Maira Alejandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maira Alejandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj"
+              "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj"
               },
-              "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj"
+              "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj": {
+    "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Maira Alejandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maira Alejandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj"
+              "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj"
               }
             }
           }
@@ -137,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
+    "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Maira Alejandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maira Alejandra\\AppData\\Roaming\\NuGet\\NuGet.Config",

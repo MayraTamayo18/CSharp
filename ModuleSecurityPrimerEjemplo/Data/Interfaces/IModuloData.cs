@@ -12,9 +12,11 @@ namespace Data.Interfaces
     public interface IModuloData
     {
         public Task Delete(int id);
-        public Task<Modulo>GetById(int id);
         public Task<Modulo> Save(Modulo entity);
         public Task Update(Modulo entity);
+        public Task<Modulo> GetById(int id);
+        public Task<IEnumerable<Modulo>> GetAll();
+        public Task<IEnumerable<DataSelectDto>> GetAllSelect();
 
     }
 }

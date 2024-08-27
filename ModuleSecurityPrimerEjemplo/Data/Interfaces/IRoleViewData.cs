@@ -14,5 +14,7 @@ namespace Data.Interfaces
         public Task<RoleView> GetById(int id);
         public Task<RoleView> Save(RoleView entity);
         public Task Update(RoleView entity);
+        public Task<IEnumerable<RoleView>> GetAll();
+        public Task<IEnumerable<DataSelectDto>> GetAllSelect();
     }
 }

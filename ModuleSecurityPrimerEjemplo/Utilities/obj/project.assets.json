@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Utilities\\Utilities.csproj",
       "projectName": "Utilities",
-      "projectPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Utilities\\Utilities.csproj",
+      "projectPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Utilities\\Utilities.csproj",
       "packagesPath": "C:\\Users\\Maira Alejandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Utilities\\obj\\",
+      "outputPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maira Alejandra\\AppData\\Roaming\\NuGet\\NuGet.Config",

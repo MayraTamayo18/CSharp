@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\",
+  "WorkspaceRootPath": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DBE8623-2225-4148-8DBA-6F0509F571AA}|Business\\Business.csproj|c:\\users\\maira alejandra\\documents\\modulesecurityprimerejemplo\\business\\interface\\iviewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DBE8623-2225-4148-8DBA-6F0509F571AA}|Business\\Business.csproj|solutionrelative:business\\interface\\iviewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\implements\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DBE8623-2225-4148-8DBA-6F0509F571AA}|Business\\Business.csproj|c:\\users\\maira alejandra\\documents\\modulesecurityprimerejemplo\\business\\implements\\viewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DBE8623-2225-4148-8DBA-6F0509F571AA}|Business\\Business.csproj|solutionrelative:business\\implements\\viewbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DBE8623-2225-4148-8DBA-6F0509F571AA}|Business\\Business.csproj|c:\\users\\maira alejandra\\documents\\modulesecurityprimerejemplo\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6DBE8623-2225-4148-8DBA-6F0509F571AA}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\implements\\viewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\viewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\interface\\ipersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\ipersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\interface\\iusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\iusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\interface\\iviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\iviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\implements\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|c:\\users\\maira alejandra\\desktop\\csharp\\modulesecurityprimerejemplo\\web\\controllers\\implements\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4612D8CF-6600-4A1A-9182-1C361122F54E}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IViewBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Interface\\IViewBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\Interface\\IViewBusiness.cs",
-              "ToolTip": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Interface\\IViewBusiness.cs",
-              "RelativeToolTip": "Business\\Interface\\IViewBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "DocumentIndex": 6,
+              "Title": "IViewController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IViewController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IViewController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IViewController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IViewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T22:59:34.102Z",
+              "WhenOpened": "2024-08-27T00:58:24.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\implements\\ViewBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\implements\\ViewBusiness.cs",
-              "ToolTip": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\implements\\ViewBusiness.cs",
-              "RelativeToolTip": "Business\\implements\\ViewBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "DocumentIndex": 5,
+              "Title": "IUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IUserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IUserController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IUserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IUserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T22:59:30.557Z",
+              "WhenOpened": "2024-08-27T00:57:54.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IRoleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IRoleController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IRoleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IRoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:57:30.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IPersonController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IPersonController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\Interface\\IPersonController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IPersonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:57:09.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Business",
-              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
-              "RelativeDocumentMoniker": "Business\\Business.csproj",
-              "ToolTip": "C:\\Users\\Maira Alejandra\\Documents\\ModuleSecurityPrimerEjemplo\\Business\\Business.csproj",
-              "RelativeToolTip": "Business\\Business.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-23T22:57:38.56Z",
+              "Title": "ViewController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\ViewController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\implements\\ViewController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\ViewController.cs",
+              "RelativeToolTip": "Web\\Controllers\\implements\\ViewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:53:17.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\UserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\implements\\UserController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\UserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\implements\\UserController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:50:29.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModuloController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\ModuloController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\implements\\ModuloController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\ModuloController.cs",
+              "RelativeToolTip": "Web\\Controllers\\implements\\ModuloController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwC8AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:43:38.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\PersonController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\implements\\PersonController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\PersonController.cs",
+              "RelativeToolTip": "Web\\Controllers\\implements\\PersonController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:41:50.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\RoleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\implements\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Maira Alejandra\\Desktop\\CSharp\\ModuleSecurityPrimerEjemplo\\Web\\Controllers\\implements\\RoleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\implements\\RoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:41:59.585Z",
               "EditorCaption": ""
             }
           ]
