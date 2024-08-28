@@ -7,8 +7,11 @@
     "\\Data\\Implements",
     "\\Data\\Interfaces",
     "\\Entity",
-    "\\Entity\\Dto"
+    "\\Entity\\Dto",
+    "\\Web",
+    "\\Web\\Controllers",
+    "\\Web\\Controllers\\implements"
   ],
-  "SelectedNode": "\\Business\\Interface\\IViewBusiness.cs",
+  "SelectedNode": "\\Web\\Controllers\\implements\\ModuloController.cs",
   "PreviewInSolutionExplorer": false
 }
