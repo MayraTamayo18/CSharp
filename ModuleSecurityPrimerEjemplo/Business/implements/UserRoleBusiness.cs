@@ -21,19 +21,19 @@ namespace Business.implements
 
         public async Task<IEnumerable<UserRoleDto>> GetAll()
         {
-            IEnumerable<UserRole> userRoles = await this.data.GetAll();
+            IEnumerable<UserRoleDto> userRoles = await this.data.GetAll();
 
-            var UserRoleDtos = userRoles.Select(userRole => new UserRoleDto
-            {
-                Id = userRole.Id,
-                UserId = userRole.UserId,
-                User = userRole.User,
-                RoleId = userRole.RoleId,
-                Role = userRole.Role,
-                State = userRole.State
-            });
+            //var UserRoleDtos = userRoles.Select(userRole => new UserRoleDto
+            //{
+            //    Id = userRole.Id,
+            //    UserId = userRole.UserId,
+            //    //User = userRole.User,
+            //    RoleId = userRole.RoleId,
+            //    //Role = userRole.Role,
+            //    State = userRole.State
+            //});
 
-            return UserRoleDtos;
+            return userRoles;
         }
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
@@ -52,9 +52,9 @@ namespace Business.implements
             {
                 Id = userRole.Id,
                 UserId = userRole.UserId,
-                User= userRole.User,
+                //User= userRole.User,
                 RoleId = userRole.RoleId,
-                Role = userRole.Role,
+                //Role = userRole.Role,
                 State = userRole.State
             };
 
@@ -65,9 +65,9 @@ namespace Business.implements
         {
             userRole.Id = entity.Id;
             userRole.UserId = entity.UserId;
-            userRole.User = entity.User;
+           // userRole.User = entity.User;
             userRole.RoleId = entity.RoleId;
-            userRole.Role = entity.Role;
+           // userRole.Role = entity.Role;
             userRole.State = entity.State;
             return userRole;
         }

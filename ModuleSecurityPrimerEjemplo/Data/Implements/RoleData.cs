@@ -1,4 +1,5 @@
-﻿using Entity.Context;
+﻿using Data.Interfaces;
+using Entity.Context;
 using Entity.Dto;
 using Entity.Model.Security;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Data.implements
 {
-    public class RoleData
+    public class RoleData: IRoleData
     {
         private readonly ApplicationDbContext context;
         protected readonly IConfiguration configuration;
@@ -30,18 +31,17 @@ namespace Data.implements
                 throw new Exception("el Registro no se encontro");
             }
             entity.DeletedAt = DateTime.Parse(DateTime.Today.ToString());
-            context.Roles.Update(entity);
+            context.Roles.Remove(entity);
             await context.SaveChangesAsync();
         }
-        public async Task<IEnumerable<DataSelectDto>>GetAll()
+        public async Task<IEnumerable<Role>>GetAll()
         {
             var sql = @"SELECT
                          *
                       FROM
-                         Role
-                     WHERE DeletedAt IS NULL AND State= 1 
+                         roles 
 				    ORDER BY Id ASC";
-            return await context.QueryAsync<DataSelectDto>(sql);
+            return await context.QueryAsync<Role>(sql);
         }
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
@@ -49,14 +49,14 @@ namespace Data.implements
                        Id,
                        CONCAT(Name, ' - ', Description) AS TextoMostrar
                     FROM 
-                     Role
+                     roles
                     WHERE DeletedAt IS NULL AND State= 1 
 				    ORDER BY Id ASC";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
         public async Task<Role> GetById(int id)
         {
-            var sql = @"SELECT * FROM Role WHERE Id = @Id ORDER BY Id ASC";
+            var sql = @"SELECT * FROM roles WHERE Id = @Id ORDER BY Id ASC";
             return await this.context.QueryFirstOrDefaultAsync<Role>(sql, new { Id = id });
         }
         public async Task<Role> Save(Role entity)

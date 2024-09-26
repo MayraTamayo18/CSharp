@@ -2,12 +2,13 @@
 using Business.Interface;
 using Entity.Dto;
 using Microsoft.AspNetCore.Mvc;
+using Web.Controllers.Interface;
 
 namespace Web.Controllers.implements
 {
     [ApiController]
     [Route("[controller]")]
-    public class RoleViewController: ControllerBase
+    public class RoleViewController: ControllerBase, IRoleViewController
     {
 
         private readonly IRoleViewBusiness _RoleViewBusiness;
@@ -63,4 +64,3 @@ namespace Web.Controllers.implements
         }
     }
 }
-<

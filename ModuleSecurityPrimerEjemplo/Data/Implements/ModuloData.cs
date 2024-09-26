@@ -1,4 +1,5 @@
-﻿using Entity.Context;
+﻿using Data.Interfaces;
+using Entity.Context;
 using Entity.Dto;
 using Entity.Model.Security;
 using Microsoft.EntityFrameworkCore;
@@ -6,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Data.implements
 {
-    public class ModuloData
+    public class ModuloData : IModuloData
     {
         private readonly ApplicationDbContext context;
         protected readonly IConfiguration configuration;
@@ -25,18 +26,17 @@ namespace Data.implements
                 throw new Exception("el Registro no se encontro");
             }
             entity.DeletedAt = DateTime.Parse(DateTime.Today.ToString());
-            context.Modulos.Update(entity);
+            context.Modulos.Remove(entity);
             await context.SaveChangesAsync();
         }
-        public async Task<IEnumerable<DataSelectDto>> GetAll()
+        public async Task<IEnumerable<Modulo>> GetAll()
         {
-            var sql= @"SELECT
+            var sql = @"SELECT
                         *
                       FROM
-                          Modulo
-                      WHERE DeletedAt IS NULL AND State=1
+                          modulos
                       ORDER BY Id ASC";
-            return await context.QueryAsync<DataSelectDto>(sql); 
+            return await context.QueryAsync<Modulo>(sql);
         }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
@@ -45,14 +45,14 @@ namespace Data.implements
                        Id,
                        CONCAT(Name, ' - ',Descriptions) AS TextoMostrar
                     FROM 
-                      Modulo
+                      modulos
                     WHERE DeletedAt IS NULL AND State= 1 
 				    ORDER BY Id ASC";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
-        public async Task<Modulo>GetById(int id)
+        public async Task<Modulo> GetById(int id)
         {
-            var sql = @"SELECT * FROM Module WHERE Id = @Id ORDER BY Id ASC";
+            var sql = @"SELECT * FROM modulos WHERE Id = @Id ORDER BY Id ASC";
             return await this.context.QueryFirstOrDefaultAsync<Modulo>(sql, new { Id = id });
         }
 
@@ -72,7 +72,8 @@ namespace Data.implements
         {
             context.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             await context.SaveChangesAsync();
-           
+
         }
-    }
+
+    }  
 }

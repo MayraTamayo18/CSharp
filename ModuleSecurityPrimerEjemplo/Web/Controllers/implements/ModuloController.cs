@@ -1,14 +1,13 @@
 ﻿using Business.Interface;
 using Entity.Dto;
-using Entity.Model.Security;
-//using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
+using Web.Controllers.Interface;
 
 namespace Web.Controllers.implements
 {
     [ApiController]
     [Route("[controller]")]
-    public class ModuloController: ControllerBase  
+    public class ModuloController: ControllerBase, IModulocontroller
     {
         private readonly IModuloBusiness _ModuloBusiness; 
 

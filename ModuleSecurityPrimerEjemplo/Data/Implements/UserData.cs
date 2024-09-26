@@ -1,4 +1,5 @@
-﻿using Entity.Context;
+﻿using Data.Interfaces;
+using Entity.Context;
 using Entity.Dto;
 using Entity.Model.Security;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Data.implements
 {
-    public class UserData
+    public class UserData:IUserData
     {
         private readonly ApplicationDbContext context;
         protected readonly IConfiguration configuration;
@@ -33,31 +34,34 @@ namespace Data.implements
             context.Users.Update(entity);
             await context.SaveChangesAsync();
         }
-        public async Task<IEnumerable<DataSelectDto>> GetAll()
+        public async Task<IEnumerable<UserDto>> GetAll()
         {
-            var sql = @"SELECT
-                         *
-                        FROM
-                          User
-                    WHERE DeletedAt IS NULL AND State= 1 
-				    ORDER BY Id ASC";
-            return await context.QueryAsync<DataSelectDto>(sql);
+            var sql = @"SELECT 
+                        us.Id,
+                        us.State,
+                        us.UserName,
+                        us.Password, 
+                        us.personId,
+                        pe.Frist_name AS person
+                       FROM users AS us
+                       INNER JOIN person AS pe ON pe.Id=us.personId
+                       WHERE ISNULL(us.DeletedAt)";
+            return await context.QueryAsync<UserDto>(sql);
         }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
             var sql = @"SELECT
                        Id,
-                       CONCAT(UserName, ' - ', Password) AS TextoMostrar
+                       CONCAT(UserName, ' - ' Password' - ',personId) AS TextoMostrar
                     FROM 
-                      User
-                    WHERE DeletedAt IS NULL AND State= 1 
-				    ORDER BY Id ASC";
+                      users
+                    ORDER BY Id ASC";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
         public async Task<User> GetById(int id)
         {
-            var sql = @"SELECT * FROM User WHERE Id = @Id ORDER BY Id ASC";
+            var sql = @"SELECT * FROM users WHERE Id = @Id ORDER BY Id ASC";
             return await this.context.QueryFirstOrDefaultAsync<User>(sql, new { Id = id });
         }
         public async Task<User> Save(User entity)

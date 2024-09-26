@@ -10,13 +10,14 @@ using System.Threading.Tasks;
 using Entity.Context;
 using Entity.Dto;
 using Entity.Model.Security;
+using Data.Interfaces;
 
 //donde se encuentra el archivo 
 namespace Data.implements
 
 	//aqui es donde se implementa el servicio como se va hacer aqui se definen metodos guardar.eliminar.actualizar,editar
 {
-	public class PersonData
+	public class PersonData: IPersonData
 	{
 		// readonly: que el valor del context se agine solo una vez
 		// ApplicationDBContext context; : se declara una variable llamada context de tipo ApplicationDBContext 
@@ -38,35 +39,34 @@ namespace Data.implements
 				throw new Exception("el Registro no se encontro");
 			}
 			entity.DeletedAt = DateTime.Parse(DateTime.Today.ToString());
-			context.Person.Update(entity);
+			context.Person.Remove(entity);
 			await context.SaveChangesAsync();
 		}
 
-		public async Task<IEnumerable<DataSelectDto>>GetAll()
-		{
-			var sql = @"SELECT
-                       *
-                     FROM
-                        Person
-                     WHERE DeletedAt IS NULL AND State=1
-                     ORDER BY Id ASC";
-			return await context.QueryAsync<DataSelectDto>(sql); 
-		}
+        public async Task<IEnumerable<Person>> GetAll()
+        {
+            var sql = @"SELECT
+                        *
+                      FROM
+                          person
+                      ORDER BY Id ASC";
+            return await context.QueryAsync<Person>(sql);
+        }
 
-		public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
+        public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
 		{
 			var sql = @"SELECT
                        Id,
                        CONCAT(First_name, ' - ', Last_name, ' - ', Email, ' - ', Phone, ' _ ', Addres, ' - ', Type_document, ' - ', Document) AS TextoMostrar
                     FROM 
-                     Person
+                     person
                     WHERE DeletedAt IS NULL AND State= 1 
 				    ORDER BY Id ASC";
 			return await context.QueryAsync<DataSelectDto>(sql);
 		}
 		public async Task<Person>GetById(int id)
 		{
-			var sql = @"SELECT * FROM Person WHERE Id = @Id ORDER BY Id ASC";
+			var sql = @"SELECT * FROM person WHERE Id = @Id ORDER BY Id ASC";
 			return await this.context.QueryFirstOrDefaultAsync<Person>(sql, new { Id = id });
 		}
 		public async Task<Person> Save(Person entity)
@@ -80,10 +80,7 @@ namespace Data.implements
 			context.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
 			await context.SaveChangesAsync();
 		}
-		public async Task<Person> GetByFrist_name(string frist_name)
-		{
-			return await this.context.Person.AsNoTracking().Where(item => item.Frist_name == frist_name).FirstOrDefaultAsync();
-		}
+	
 	}
 
 }

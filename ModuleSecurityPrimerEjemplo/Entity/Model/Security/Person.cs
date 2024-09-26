@@ -18,9 +18,9 @@ namespace Entity.Model.Security
         public string Document { get; set; }
         public DateTime Birth_of_date { get; set; }
         public DateTime CreatedAt { get; set; }
-        public DateTime UpdateAt { get; set; }
-        public DateTime DeletedAt { get; set; }
-        public int Phone { get; set; }
+        public DateTime ? UpdateAt { get; set; }
+        public DateTime ? DeletedAt { get; set; }
+        public string  Phone { get; set; }
         public bool State { get; set; }
         
        

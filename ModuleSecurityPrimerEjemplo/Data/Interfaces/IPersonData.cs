@@ -14,7 +14,7 @@ namespace Data.Interfaces
         public Task Delete(int id);
         public Task<Person> Save(Person entity);
         public Task Update(Person entity);
-        public Task<Person> GetByFirst_name(string first_name);
+        
         public Task<Person> GetById(int id);
         public Task<IEnumerable<Person>> GetAll();
         public Task<IEnumerable<DataSelectDto>> GetAllSelect();

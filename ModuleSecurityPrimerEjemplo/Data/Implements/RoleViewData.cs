@@ -1,4 +1,5 @@
-﻿using Entity.Context;
+﻿using Data.Interfaces;
+using Entity.Context;
 using Entity.Dto;
 using Entity.Model.Security;
 using Microsoft.Extensions.Configuration;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Data.implements
 {
-    public class RoleViewData
+    public class RoleViewData: IRoleViewData
     {
         private readonly ApplicationDbContext context;
         protected readonly IConfiguration configuration;
@@ -32,15 +33,21 @@ namespace Data.implements
             context.RoleViews.Update(entity);
             await context.SaveChangesAsync();
         }
-        public async Task<IEnumerable<DataSelectDto>> GetAll()
+        public async Task<IEnumerable<RoleViewDto>> GetAll()
         {
-            var sql = @"SELECT
-                         *
-                        FROM
-                          RoleView
-                    WHERE DeletedAt IS NULL AND State= 1 
-				    ORDER BY Id ASC";
-            return await context.QueryAsync<DataSelectDto>(sql);
+            var sql = @"SELECT 
+                        rolw.Id,
+                        rolw.State,
+                        rolw.RoleId,
+                        rolw.ViewId,
+                        ro.Name AS Role,
+                        vi.Name AS View
+                    FROM roleviews AS rolw
+                    INNER JOIN roles AS ro ON ro.Id=rolw.ViewId
+                    INNER JOIN views AS vi ON vi.Id=rolw.RoleId
+                    WHERE ISNULL(rolw.DeletedAt)";
+            IEnumerable<RoleViewDto> roleViewDtos = await context.QueryAsync<RoleViewDto>(sql);
+            return roleViewDtos;
         }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
@@ -49,14 +56,14 @@ namespace Data.implements
                        Id,
                        CONCAT(Role_id, ' - ', View_id) AS TextoMostrar
                     FROM 
-                      RoleView
+                      roleViews
                     WHERE DeletedAt IS NULL AND State= 1 
 				    ORDER BY Id ASC";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
         public async Task<RoleView> GetById(int id)
         {
-            var sql = @"SELECT * FROM RoleView WHERE Id = @Id ORDER BY Id ASC";
+            var sql = @"SELECT * FROM roleViews WHERE Id = @Id ORDER BY Id ASC";
             return await this.context.QueryFirstOrDefaultAsync<RoleView>(sql, new { Id = id });
         }
 

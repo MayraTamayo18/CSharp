@@ -22,19 +22,19 @@ namespace Business.implements
 
         public async Task<IEnumerable<RoleViewDto>> GetAll()
         {
-            IEnumerable<RoleView> roleViews = await this.data.GetAll();
+            IEnumerable<RoleViewDto> roleViews = await this.data.GetAll();
 
-            var roleViewDtos = roleViews.Select(roleView => new RoleViewDto
-            {
-                Id = roleView.Id,
-                RoleId = roleView.RoleId,
-                ViewId = roleView.ViewId,
-                role= roleView.role,
-                view = roleView.view,
-                State = roleView.State
-            });
+            //var roleViewDtos = roleViews.Select(roleView => new RoleViewDto
+            //{
+            //    Id = roleView.Id,
+            //    RoleId = roleView.RoleId,
+            //    ViewId = roleView.ViewId,
+            //    //role= roleView.role,
+            //    //view = roleView.view,
+            //    State = roleView.State
+            //});
 
-            return roleViewDtos;
+            return roleViews;
         }
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
@@ -54,8 +54,8 @@ namespace Business.implements
                 Id = roleView.Id,
                 RoleId = roleView.RoleId,
                 ViewId = roleView.ViewId,
-                role = roleView.role,
-                view = roleView.view,
+                //role = roleView.role,
+                //view = roleView.view,
                 State = roleView.State
             };
 
@@ -67,8 +67,8 @@ namespace Business.implements
             roleView.Id = entity.Id;
             roleView.RoleId = entity.RoleId;
             roleView.ViewId = entity.ViewId;
-            roleView.role = entity.role;
-            roleView.view = entity.view;
+            //roleView.role = entity.role;
+            //roleView.view = entity.view;
             roleView.State = entity.State;
 
             return roleView;

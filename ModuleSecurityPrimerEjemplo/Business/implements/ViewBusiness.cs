@@ -1,5 +1,4 @@
-﻿
-using Business.Interface;
+﻿using Business.Interface;
 using Data.Interfaces;
 using Entity.Dto;
 using Entity.Model.Security;
@@ -22,19 +21,19 @@ namespace Business.implements
 
         public async Task<IEnumerable<ViewDto>> GetAll()
         {
-            IEnumerable<View> views = await this.data.GetAll();
+            IEnumerable<ViewDto> views = await this.data.GetAll();
 
-            var viewDtos = views.Select(view => new ViewDto
-            {
-                Id = view.Id,
-                Name = view.Name,
-                Description = view.Description,
-                Route = view.Route,
-                ModuloId = view.ModuloId,
-                State = view.State
-            });
+            //var viewDtos = views.Select(view => new ViewDto
+            //{
+            //    Id = view.Id,
+            //    Name = view.Name,
+            //    Description = view.Description,
+            //    Route = view.Route,
+            //    ModuloId = view.ModuloId,
+            //    State = view.State
+            //});
 
-            return viewDtos;
+            return views;
         }
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {

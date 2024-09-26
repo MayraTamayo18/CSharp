@@ -13,8 +13,8 @@ namespace Entity.Model.Security
         public string Description { get; set; }
         public string Route { get; set; }
         public DateTime CreatedAt { get; set; }
-        public DateTime UpdateAt { get; set; }
-        public DateTime DeletedAt { get; set; }
+        public DateTime ? UpdateAt { get; set; }
+        public DateTime ? DeletedAt { get; set; }
         public bool State { get; set; }
     }
 }

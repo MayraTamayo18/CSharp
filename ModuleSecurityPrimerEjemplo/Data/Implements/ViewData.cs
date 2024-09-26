@@ -1,4 +1,5 @@
-﻿using Entity.Context;
+﻿using Data.Interfaces;
+using Entity.Context;
 using Entity.Dto;
 using Entity.Model.Security;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Data.implements
 {
-    public class ViewData
+    public class ViewData: IViewData
     {
 
         private readonly ApplicationDbContext context;
@@ -31,35 +32,40 @@ namespace Data.implements
                 throw new Exception("el Registro no se encontro");
             }
             entity.DeletedAt = DateTime.Parse(DateTime.Today.ToString());
-            context.Views.Update(entity);
+            context.Views.Remove(entity);
             await context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<DataSelectDto>> GetAll()
+        public async Task<IEnumerable<ViewDto>> GetAll()
         {
-            var sql = @"SELECT
-                      *
-                    FROM 
-                      View
-                    WHERE DeletedAt IS NULL AND State= 1 
-				    ORDER BY Id ASC";
-            return await context.QueryAsync<DataSelectDto>(sql);
+            var sql = @"SELECT 
+                        vi.Id,
+                        vi.State,
+                        vi.Name, 
+                        vi.Description,
+                        vi.Route,
+                        vi.ModuloId,
+                        mo.Name AS Modulo
+                        FROM views AS vi
+                        INNER JOIN modulos AS mo ON mo.Id=vi.ModuloId
+                        WHERE ISNULL(vi.DeletedAt)";
+            return await context.QueryAsync<ViewDto>(sql);
         }
 
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
             var sql = @"SELECT
                        Id,
-                       CONCAT(Name, ' - ',Descriptions, ' - ', Route) AS TextoMostrar
+                       CONCAT(Name, ' - ',Descriptions, ' - ', Route' - ', ModuloId) AS TextoMostrar
                     FROM 
-                      View
+                      views
                     WHERE DeletedAt IS NULL AND State= 1 
 				    ORDER BY Id ASC";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
         public async Task<View> GetById(int id)
         {
-            var sql = @"SELECT * FROM View WHERE Id = @Id ORDER BY Id ASC";
+            var sql = @"SELECT * FROM views WHERE Id = @Id ORDER BY Id ASC";
             return await this.context.QueryFirstOrDefaultAsync<View>(sql, new { Id = id });
         }
 

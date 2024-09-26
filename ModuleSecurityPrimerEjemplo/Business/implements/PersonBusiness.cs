@@ -39,6 +39,7 @@ namespace Business.implements
                 Phone =person.Phone,
                 Type_document= person.Type_documment,
                 Document= person.Document,
+                Addres = person.Addres,
                 State = person.State
             });
 
@@ -66,6 +67,7 @@ namespace Business.implements
                 Phone = person.Phone,
                 Type_document = person.Type_documment,
                 Document = person.Document,
+                Addres = person.Addres,
                 State = person.State
 
             };
@@ -82,7 +84,9 @@ namespace Business.implements
             person.Phone = entity.Phone;
             person.Type_documment= entity.Type_document;
             person.Document= entity.Document;
+            person.Addres = entity.Addres;
             person.State= entity.State;
+
             return person;
         }
 

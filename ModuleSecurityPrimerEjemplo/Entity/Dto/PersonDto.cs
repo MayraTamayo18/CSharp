@@ -12,12 +12,14 @@ namespace Entity.Dto
         public string First_name {get; set;}
         public string last_name{get; set;}
         public string Email { get; set; }
-        public int Phone{ get; set; }
+        public string Phone { get; set; }
         public string Type_document { get; set; }
         public string Document { get; set; }
-        public string Route { get; set; }
+
+        public string Addres { get; set; }
+        //public string Route { get; set; }
         public bool State { get; set; }
-        public DateTime Birth_of_date { get; set; }
+        //public DateTime Birth_of_date { get; set; }
 
     }
 }

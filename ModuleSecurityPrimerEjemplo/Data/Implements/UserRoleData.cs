@@ -1,4 +1,5 @@
-﻿using Entity.Context;
+﻿using Data.Interfaces;
+using Entity.Context;
 using Entity.Dto;
 using Entity.Model.Security;
 using Microsoft.Extensions.Configuration;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Data.implements
 {
-    public class UserRoleData
+    public class UserRoleData:IUserRoleData
     {
         private readonly ApplicationDbContext context;
         protected readonly IConfiguration configuration;
@@ -29,18 +30,23 @@ namespace Data.implements
                 throw new Exception("el Registro no se encontro");
             }
             entity.DeletedAt = DateTime.Parse(DateTime.Today.ToString());
-            context.userRoles.Update(entity);
+            context.UserRoles.Update(entity);
             await context.SaveChangesAsync();
         }
-        public async Task<IEnumerable<DataSelectDto>> GetAll()
+        public async Task<IEnumerable<UserRoleDto>> GetAll()
         {
-            var sql= @"SELECT
-                         *
-                        FROM
-                          UserRole
-                    WHERE DeletedAt IS NULL AND State= 1 
-				    ORDER BY Id ASC";
-            return await context.QueryAsync<DataSelectDto>(sql);
+            var sql= @"SELECT 
+                        ur.Id,
+                        ur.State,
+                        ur.UserId,
+                        ur.RoleId,
+                        us.UserName AS User,
+                        ro.Name AS Role
+                    FROM userroles AS ur
+                    INNER JOIN users AS us ON us.Id=ur.UserId
+                    INNER JOIN roles AS ro ON ro.Id=ur.RoleId
+                    WHERE ISNULL(ur.DeletedAt)";
+            return await context.QueryAsync<UserRoleDto>(sql);
         }
         public async Task<IEnumerable<DataSelectDto>> GetAllSelect()
         {
@@ -48,19 +54,19 @@ namespace Data.implements
                        Id,
                        CONCAT(RoleId, ' - ', UserId) AS TextoMostrar
                     FROM 
-                      UserRole
+                      userroles
                     WHERE DeletedAt IS NULL AND State= 1 
 				    ORDER BY Id ASC";
             return await context.QueryAsync<DataSelectDto>(sql);
         }
         public async Task<UserRole> GetById(int id)
         {
-            var sql = @"SELECT * FROM UserRole WHERE Id = @Id ORDER BY Id ASC";
+            var sql = @"SELECT * FROM userroles WHERE Id = @Id ORDER BY Id ASC";
             return await this.context.QueryFirstOrDefaultAsync<UserRole>(sql, new { Id = id });
         }
         public async Task<UserRole> Save(UserRole entity)
         {
-            context.userRoles.Add(entity);
+            context.UserRoles.Add(entity);
             await context.SaveChangesAsync();
             return entity;
         }

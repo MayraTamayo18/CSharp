@@ -11,9 +11,10 @@ namespace Entity.Dto
         public int Id {get; set;}
         public string UserName {get; set;}
         public string Password{ get; set; }
+        public int personId { get; set; }
         public  bool State{ get; set; }
-        public string person{ get; set; }
-        public int personId{ get; set; }
+        public string ? person{ get; set; }
+        
 
      }
 }

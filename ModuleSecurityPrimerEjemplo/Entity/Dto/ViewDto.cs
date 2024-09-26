@@ -13,7 +13,7 @@ namespace Entity.Dto
         public string Description{ get; set; }
         public string Route{ get; set; }
         public int ModuloId{ get; set; }
-        public string Module{ get; set; }
+        public string ? Modulo{ get; set; }
         public bool State{ get; set; }
         
     }
